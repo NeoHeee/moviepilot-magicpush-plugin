@@ -26,25 +26,12 @@ curl -X POST "http://你的MagicPush地址:端口/api/push/你的Token" \
   -d '{"title":"MagicPush测试","content":"接口工作正常","type":"markdown"}'
 ```
 
-## 推荐安装方式：自建第三方插件仓库
+## 推荐安装方式：添加第三方插件仓库
 
-1. 在 GitHub 新建一个仓库。
-2. 将本压缩包解压后的所有内容上传到仓库根目录，目录结构不要改变。
-3. 在 MoviePilot V2 的插件市场设置中添加该 GitHub 仓库地址。
-4. 刷新插件市场，搜索“MagicPush消息通知”并安装。
-5. 安装后进入插件配置页面填写参数。
+1. 在 MoviePilot V2 的插件市场设置中添加该 GitHub 仓库地址。
+2. 刷新插件市场，搜索“MagicPush消息通知”并安装。
+3. 安装后进入插件配置页面填写参数。
 
-仓库根目录应当是：
-
-```text
-package.json
-package.v2.json
-icons/
-  magicpush.png
-plugins.v2/
-  magicpushmsg/
-    __init__.py
-```
 
 ## 插件配置
 
