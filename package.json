@@ -14,3 +14,20 @@
     "v2": true
   }
 }
+
+{
+  "MagicPushControl": {
+    "name": "MagicPush控制中心",
+    "description": "不依赖系统通知客户端，将MoviePilot通知和命令结果推送到MagicPush，并提供手机控制页。",
+    "labels": "消息通知,命令管理,MagicPush",
+    "version": "1.0.0",
+    "icon": "magicpushcontrol.png",
+    "author": "Neo",
+    "level": 1,
+    "system_version": ">=2.4.4,<3",
+    "history": {
+      "v1.0.0": "首次发布：MagicPush入站通知、手机控制页、命令管理、安全API和复杂结果文字摘要。"
+    },
+    "v2": true
+  }
+}
